@@ -10,4 +10,4 @@ class HostSerializer(serializers.HyperlinkedModelSerializer):
 class EventSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Event
-        fields = ('name', 'description', 'image', 'host', 'time')
+        fields = ('name', 'description', 'host', 'time')
